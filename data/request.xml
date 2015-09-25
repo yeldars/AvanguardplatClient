@@ -1,0 +1,1 @@
+<body id="signedContent"><payments><payment><ct><id>100000302</id><date>2014-08-13T10:57:51.0228</date></ct><service><id>228</id><accountId>777777777</accountId><amount>1924.00</amount><commission>50.00</commission><parameters/><subservices><subservice><parameters/></subservice></subservices></service></payment></payments></body>

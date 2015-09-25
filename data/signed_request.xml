@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<request>
+	<header>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha1"/>
+<ds:Reference URI="#signedContent">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha1"/>
+<ds:DigestValue>C2v6H2qMsQVY+tD/ouaFTTkSR8Q=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+VoQYnIjFqGEJgT5emCbbuJgP4kOM16Id4BH5pSuEWi9MWPsCDQqSt+C5Daai6kU3DRGify3JaSV2
+qwsbVHa/wmXwJ5XnaH4QpAStijsRryUb4Axwf9xMu8lVvIkTfMf5CGxBCwRz+ARS8bOGwK3Odu4b
+qN/DaRZJmcOt7sKFE7cA4wGrvTkC+tOon76jrDOrJwGU9GbzK3YFVuZorZjJm93R96AGvsEqaMn+
+M80iM2EDAn/whIgMTZ5jFCVWc4ioP1eQyhrccL5AYXf5zsaBrbmv66hrU97OUFXvZDSNZWRHxHLD
+5M+36xSiHGX3m4ihbrvmwQbeK/d8WMeGF6b+kQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIECzCCAvOgAwIBAgIUGViD7lKiAsHY1n09UQOG1Atf+hAwDQYJKoZIhvcNAQEFBQAwMzELMAkG
+A1UEBhMCS1oxDTALBgNVBAoTBEtJU0MxFTATBgNVBAMTDEtJU0MgQmV0YSBDQTAeFw0xNTAxMTMx
+MDQzMDVaFw0xODAxMTIxMDQ4MDVaMC4xCzAJBgNVBAYTAktaMQ8wDQYDVQQKEwZBR0VOVDExDjAM
+BgNVBAMTBU5BTUUxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtkhgBaJq63KuOAkM
+N+Frpzxbus0Ac/7CoZ4rSpdDwzXHW1a0Ec3P1jWH3/HR/+GPT2MuD46IbGJ0EWTnhWOyeCzdXTB5
+9pJ4exqS+lcetehh6/fROpPM1QjpXxgeGusLbCjIlbDVgnv+qwgBKUfQ3F/PFOzw0OlVW8MNRiE9
+Ifqp/v8NLWXGDMrN7ox0+o07VfFnhAv7/hSUSlyrVxnV9PHGPKrPonD/18UES1UswRspkpks9yBW
+ir4wRa+3j1ci2Pomlmkdza0s3cxsycToTKFceG7hqwaYGoPfeEkFxrQ11OYC/0LomPI5yrZb5cnV
+xp90X4SwKDzufzPD70VIOQIDAQABo4IBGjCCARYwCwYDVR0PBAQDAgWgMGMGA1UdHwRcMFowK6Ap
+oCeGJWh0dHA6Ly9iZXRhY2Eua2lzYy5rei9jZ2kvUmV2TGlzdC5jcmwwK6ApoCeGJWh0dHA6Ly9i
+ZXRhY2Eua2lzYy5rei9jZ2kvUmV2TGlzdC5jcmwwEwYDVR0lBAwwCgYIKwYBBQUHAwIwHQYDVR0O
+BBYEFBlYg+5SogLB2NZ9PVEDhtQLX/oQMG4GA1UdIwRnMGWAFMPM2tsXh4R8ee/f5iVTrhJV/Pk8
+oTekNTAzMQswCQYDVQQGEwJLWjENMAsGA1UEChMES0lTQzEVMBMGA1UEAxMMS0lTQyBCZXRhIENB
+ghRDzNrbF4eEfHnv3+YlU64SVfz5PDANBgkqhkiG9w0BAQUFAAOCAQEAIkP7/3bbbSqT0EsVJsWy
+PaL4tgEdbN8AL1j/8RipHcoJ8SBsVIP9UXfkzaNEk+1SfJiVHXWmgDiDeUIMtPxsWJFD9G18ZiGV
+3JsT5B9KbqGoLpgNCSO6YUdv1ILzcgyUwt13Xo2rw39sNpEQ3n/IISU7bJyi8CLeXEF03GopZ8j+
+12RmLvM21TmQe7d3GTPVzV9d+36YGkRmu6PGXcqLygrfozrtPlmISGxL8ZdhpqOL228E2HBm0CmJ
+htOUgZP2p27OSzvqbIq39i4OGTVkd/PBPbgckcuSnz082pAyUdyqQi25gQ/X2B5/5DfX/69tQRj+
+e18I/jM+28fOfq6dLw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+</header>
+<body id="signedContent">
+		<payments>
+			<payment>
+				<ctId>1182480193471951994</ctId>
+			</payment>
+			<payment>
+				<ctId>2279520428265812136</ctId>
+			</payment>
+			<payment>
+				<ctId>1234</ctId>
+			</payment>
+		</payments>
+	</body>
+</request>

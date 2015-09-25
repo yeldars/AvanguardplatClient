@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<request>
+	<body>
+		<payments>
+			<payment>
+				<ctId>1182480193471951994</ctId>
+			</payment>
+			<payment>
+				<ctId>2279520428265812136</ctId>
+			</payment>
+			<payment>
+				<ctId>12345</ctId>
+			</payment>
+		</payments>
+	</body>
+	<some>
+		<none/>
+	</some>
+</request>

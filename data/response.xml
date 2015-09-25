@@ -1,0 +1,2 @@
+<request><header><security>null</security></header><?xml version="1.0" encoding="utf-8"?>
+<body id="signedContent"><payments><payment><ct><id>111222333444</id><date>2015-09-24T16:50:25.0627</date></ct><service><id>503</id><accountId>7023110192</accountId><amount>1500.00</amount><commission>0</commission><parameters/></service></payment></payments></body></request>
